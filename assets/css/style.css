@@ -6,8 +6,19 @@
     float: right;
 }
 
+html, body {
+    height: 100%;
+}
 body {
-    margin: 0;  
+    margin: 0;      
+    background-image: url("../images/gravel.png");
+    display: flex;
+    flex-direction: column;
+
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .clearfix::after {
@@ -54,8 +65,8 @@ a.thenav:hover {
 }
 
 .container {
-    background-image: url("../images/gravel.png");
-    padding-bottom: 100px;
+    /* background-image: url("../images/gravel.png"); */
+    background-size: 100%;
     margin: auto;
     border-bottom: solid #dddddd;
     border-top: solid #dddddd;
@@ -67,7 +78,7 @@ a.thenav:hover {
     padding: 10px;
     border: #dddddd;
     border-style: solid;
-    margin: 40px 220px;
+    margin:auto;
     height: 475px;
     width: 960px;
 }
@@ -95,14 +106,16 @@ a.thenav:hover {
 }
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     border-top: 8px solid #4aaaa5;
     left: 0;
     bottom: 0;
     width: 100%;
+    padding: 14px;
     color: white;
     background-color: gray;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .links {
@@ -222,3 +235,33 @@ h3.portfolio {
     margin-left: 20px;
 }
 
+#page1, #page2, #page3 {
+    height: 1000px;
+    margin: 0;
+    width: 100%;
+}
+
+#page1 {
+    background:url(../../index.html);
+}
+
+#page2 {
+    background: url(../../portfolio.html);
+}
+
+#page3 {
+    background: url(../../contact.html);
+}
+
+.fixed {
+    position: fixed;
+    z-index: 2;
+}
+
+.wide {
+    width: 100%;
+}
+
+.thin {
+    height: 70px;
+}
