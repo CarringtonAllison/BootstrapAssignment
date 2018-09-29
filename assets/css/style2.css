@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images/IMG_8483.jpg);
+    background-size: cover;
+
+}
+
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+
+.navbar-light .navbar-brand {
+    color:white;
+    height: -35px;
+}
+
+
+.carousel-row {
+    margin-top: 5%;
+}
+
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 2%;
+    text-align: left;
+    margin-left: 10%;
+}
+.carousel-caption>h5    {
+    font-size: 5%;
+}
