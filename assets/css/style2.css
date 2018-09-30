@@ -15,9 +15,13 @@ h4 {
     color: #ffd78d;
 }
 
+#red {
+    color: #ca4545;
+}
+
 .navborders {
-    border-right: 2px solid red ;
-    border-left: 2px solid red;
+    border-right: 2px solid #ca4545 ;
+    border-left: 2px solid #ca4545;
 }
 
 .darkback {
@@ -50,7 +54,7 @@ ul.navbar-nav {
 
 
 .navbar-light .navbar-brand {
-    color: red;
+    color: #ca4545;
     height: -35px;
 }
 
@@ -93,7 +97,7 @@ ul.navbar-nav {
 
 i.size {
    font-size: 50px;
-   color: white;  
+   color: #ca4545;  
    margin-left: 14px;  
 }
 
@@ -105,6 +109,22 @@ i.size {
     margin-bottom: 40px;
 }
 
-form {
-    width: 100%;
-}
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .darkback {
+
+    }
+    
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
