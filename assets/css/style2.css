@@ -6,11 +6,41 @@ body {
     background-size: cover;
 
 }
+p {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
 
+h4 {
+    color: #ffd78d;
+}
+
+.navborders {
+    border-right: 2px solid red ;
+    border-left: 2px solid red;
+}
+
+.darkback {
+    background-color: rgba(0, 0, 0, .3)
+}
+
+
+a.navbar-brand {
+    font-size: 40px;
+}
+
+nav>.container  {
+    margin-top:40px;
+}
+
+ul.navbar-nav {
+    font-size: 25px;
+}
 
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: white;
+
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -20,7 +50,7 @@ body {
 
 
 .navbar-light .navbar-brand {
-    color:white;
+    color: red;
     height: -35px;
 }
 
@@ -44,4 +74,37 @@ body {
 }
 .carousel-caption>h5    {
     font-size: 5%;
+}
+
+.cborder {
+    border: 4px groove black;
+}
+
+.col-lg-4>img {
+    border: 4px groove black;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cmargin {
+    margin-top: 50px;
+}
+
+i.size {
+   font-size: 50px;
+   color: white;  
+   margin-left: 14px;  
+}
+
+.rowbord {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 30px;  
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+form {
+    width: 100%;
 }
