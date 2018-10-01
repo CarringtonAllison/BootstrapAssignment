@@ -19,6 +19,15 @@ h4 {
     color: #ca4545;
 }
 
+h2 {
+    color: #ca4545;
+    border-bottom: 4px solid #ffd78d; 
+}
+
+h2.navbar-brand {
+    font-size: 26px;
+}
+
 .navborders {
     border-right: 2px solid #ca4545 ;
     border-left: 2px solid #ca4545;
@@ -31,6 +40,7 @@ h4 {
 
 a.navbar-brand {
     font-size: 40px;
+    
 }
 
 nav>.container  {
@@ -109,22 +119,12 @@ i.size {
     margin-bottom: 40px;
 }
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
+form>input#message { 
+    height: 25px;
+    width: auto;
+}
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+button {
+    margin-top: 20px;
+}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-    .darkback {
-
-    }
-    
- }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
