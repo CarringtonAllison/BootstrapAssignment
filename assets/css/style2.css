@@ -4,6 +4,9 @@
 body {
     background-image: url(../images/IMG_8483.jpg);
     background-size: cover;
+    height: -webkit-fill-available;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 
 }
  
@@ -158,3 +161,18 @@ button {
     margin-top: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: 15%;
+    }
+
+    a.navbar-brand {
+        font-size: 31px;
+    }
+    .navborders {
+        border-left: none;
+    }
+}
+
+
+    
