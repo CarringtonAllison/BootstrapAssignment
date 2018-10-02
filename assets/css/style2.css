@@ -6,6 +6,10 @@ body {
     background-size: cover;
 
 }
+ 
+@font-face {
+    font-family: International; src: url(../International.ttf);
+}
 p {
     color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -13,6 +17,7 @@ p {
 
 h4 {
     color: #ffd78d;
+    font-family: 'International';
 }
 
 #red {
@@ -29,12 +34,13 @@ h2.navbar-brand {
 }
 
 .navborders {
-    border-right: 2px solid #ca4545 ;
     border-left: 2px solid #ca4545;
 }
 
 .darkback {
-    background-color: rgba(0, 0, 0, .3)
+    background-color: rgba(0, 0, 0, .3);
+    margin-top: -4px;
+    padding-top: 4px;
 }
 
 
@@ -49,6 +55,22 @@ nav>.container  {
 
 ul.navbar-nav {
     font-size: 25px;
+}
+
+#textColor {
+    color: black;
+}
+
+#textPosandCol {
+    color: black;
+    left: 40%;
+}
+
+#pos {
+    
+}
+.navbar {
+    font-family: 'International', sans-serif;
 }
 
 
@@ -78,13 +100,21 @@ ul.navbar-nav {
     height:360px;
 }
 
-.carousel-caption {
+.cap {
     position: absolute;
     left: 0;
     width: 50%;
     top: 2%;
     text-align: left;
     margin-left: 10%;
+}
+.capp {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    top: 2%;
+    text-align: right;
+    margin-left: 30%;
 }
 .carousel-caption>h5    {
     font-size: 5%;
