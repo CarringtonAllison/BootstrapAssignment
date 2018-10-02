@@ -172,7 +172,11 @@ button {
     .navborders {
         border-left: none;
     }
+    .smaller {
+        height: 460px;
+    }
 }
+
 
 
     
