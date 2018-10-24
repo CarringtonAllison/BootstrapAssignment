@@ -9,6 +9,10 @@ body {
     background-attachment: fixed
 
 }
+
+.container {
+    margin-top: 10px;
+}
  
 @font-face {
     font-family: International; src: url(../International.ttf);
@@ -18,9 +22,24 @@ p {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.links {
+    text-align: center;
+}
+
 h4 {
     color: #ffd78d;
     font-family: 'International';
+    text-align: center; 
+}
+
+
+
+.firstCol {
+    margin-top: 20px; 
+}
+
+.firstRow{
+    text-align: left; 
 }
 
 #red {
@@ -43,8 +62,8 @@ h2.navbar-brand {
 
 .darkback {
     background-color: rgba(0, 0, 0, .3);
-    margin-top: -4px;
-    padding-top: 4px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 
@@ -70,9 +89,6 @@ ul.navbar-nav {
     left: 40%;
 }
 
-#pos {
-    
-}
 .navbar {
     font-family: 'International', sans-serif;
 }
@@ -135,9 +151,7 @@ ul.navbar-nav {
     margin-right: auto;
 }
 
-.cmargin {
-    margin-top: 50px;
-}
+
 
 i.size {
    font-size: 50px;
@@ -161,20 +175,29 @@ form>input#message {
 button {
     margin-top: 20px;
 }
+.smaller {
+    margin-top: 30px;
+    height: 550px;
+    width: auto;
+
+}
+
+form {
+    text-align: center; 
+}
+
 
 @media only screen and (max-width: 600px) {
-    .container {
-        margin-top: 15%;
-    }
+
 
     a.navbar-brand {
-        font-size: 31px;
+        font-size: 29px;
     }
     .navborders {
         border-left: none;
     }
     .smaller {
-        height: 460px;
+        height: 400px;
     }
 }
 
